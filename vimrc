@@ -106,3 +106,8 @@ augroup END
 let g:tmux_navigator_save_on_switch = 2
 
 set encoding=utf-8
+
+" ----------Buffers Switching ---------
+map <F2> :bn<CR>
+map <F3> :bp<CR>
+noremap <F4> :ls<CR>:b<space>
